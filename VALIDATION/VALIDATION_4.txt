@@ -1,0 +1,23 @@
+===== Simulator configuration =====
+BLOCKSIZE:             64
+L1_SIZE:               32768
+L1_ASSOC:              4
+L2_SIZE:               262144
+L2_ASSOC:              4
+REPLACEMENT POLICY:    LRU
+INCLUSION PROPERTY:    non-inclusive
+trace_file:            LBM.t
+===== Simulation results (raw) =====
+a. number of L1 reads:        1573624
+b. number of L1 read misses:  170813
+c. number of L1 writes:       426376
+d. number of L1 write misses: 44628
+e. L1 miss rate:              0.107721
+f. number of L1 writebacks:   150821
+g. number of L2 reads:        215441
+h. number of L2 read misses:  131876
+i. number of L2 writes:       150821
+j. number of L2 write misses: 18
+k. L2 miss rate:              0.360108
+l. number of L2 writebacks:   104239
+m. total memory traffic:      236133

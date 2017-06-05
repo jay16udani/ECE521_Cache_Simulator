@@ -1,0 +1,23 @@
+===== Simulator configuration =====
+BLOCKSIZE:             64
+L1_SIZE:               65536
+L1_ASSOC:              8
+L2_SIZE:               0
+L2_ASSOC:              0
+REPLACEMENT POLICY:    FIFO
+INCLUSION PROPERTY:    non-inclusive
+trace_file:            MCF.t
+===== Simulation results (raw) =====
+a. number of L1 reads:        1701892
+b. number of L1 read misses:  424688
+c. number of L1 writes:       298108
+d. number of L1 write misses: 74754
+e. L1 miss rate:              0.249721
+f. number of L1 writebacks:   192804
+g. number of L2 reads:        0
+h. number of L2 read misses:  0
+i. number of L2 writes:       0
+j. number of L2 write misses: 0
+k. L2 miss rate:              0
+l. number of L2 writebacks:   0
+m. total memory traffic:      692246
